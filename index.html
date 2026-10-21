@@ -1,5 +1,5 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Juliette 30 ans</title>
-<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#f6f2ee"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Juliette 30">
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#f6f2ee"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Juliette 30">
 <style>html{padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}[hidden]{display:none!important}</style></head><body>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Dancing+Script:wght@600;700&family=Archivo:wght@500;700;800&display=swap">
@@ -10,7 +10,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Archivo,system-ui,sans-serif;
 padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
 main{max-width:460px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
-.stack{display:flex;flex-direction:column;gap:22px}.arr{display:flex;flex-direction:column;gap:16px}.arr svg{width:100%;height:auto;border-radius:18px;display:block}.cap{font-size:11px;color:var(--muted);margin:-8px 0 0}.addr2{background:var(--card);color:var(--digit);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:8px}.addr2 b{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink)}.addr2 .big{font-family:'Dancing Script',cursive;font-weight:700;font-size:34px;line-height:1.05}.trip{display:flex;gap:12px;align-items:center;border:2px solid var(--ink);border-radius:16px;padding:14px}.trip strong{font-family:'Dancing Script',cursive;font-size:34px;line-height:1;color:var(--coral)}.trip span{font-size:14px;line-height:1.4}.top{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+.adm{display:none!important}body.admin .adm{display:block!important}.stack{display:flex;flex-direction:column;gap:22px}.arr{display:flex;flex-direction:column;gap:16px}.arr svg{width:100%;height:auto;border-radius:18px;display:block}.cap{font-size:11px;color:var(--muted);margin:-8px 0 0}.addr2{background:var(--card);color:var(--digit);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:8px}.addr2 b{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink)}.addr2 .big{font-family:'Dancing Script',cursive;font-weight:700;font-size:34px;line-height:1.05}.trip{display:flex;gap:12px;align-items:center;border:2px solid var(--ink);border-radius:16px;padding:14px}.trip strong{font-family:'Dancing Script',cursive;font-size:34px;line-height:1;color:var(--coral)}.trip span{font-size:14px;line-height:1.4}.top{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
 .top img{width:150px;height:auto}
 .top small{font-size:13px!important;font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:11px;color:var(--muted)}
 h1{font-family:'Dancing Script','Segoe Script',cursive;font-weight:700;line-height:.95;margin:0;text-align:center;font-size:clamp(56px,18vw,88px);text-wrap:balance}
@@ -86,8 +86,8 @@ body.dark{background:#0e0a0b}body.dark #hd,body.dark #logo{display:none}
     <div class="row"><input id="ans" placeholder="Ta réponse" autocomplete="off" aria-label="Réponse"><button class="cta" id="ok">Valider</button></div>
     <div class="reveal" id="rev" hidden>Bravo ! Ce matin : balade à dos de chameau et quad dans la palmeraie. RDV 9 h 30 à l'entrée du riad. Prévois lunettes et foulard.</div>
   </section>
-  <p class="demo">Prototype avec des données d'exemple (noms, vols et énigme fictifs). Sur l'app finale, les notifications arrivent même téléphone verrouillé.</p>
-  <button class="ghost" id="test">Tester le compte à rebours à 5 secondes</button></div>
+  <p class="demo adm">Prototype avec des données d'exemple (noms, vols et énigme fictifs). Sur l'app finale, les notifications arrivent même téléphone verrouillé.</p>
+  <button class="ghost adm" id="test">Tester le compte à rebours à 5 secondes</button></div>
 <section class="arr" id="arrival" hidden><div class="stack" style="gap:16px"><p class="sub">Bienvenue à Marrakech !</p><svg viewBox="0 0 400 250" role="img" aria-label="Illustration d'un patio de riad avec palmier et piscine"><defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f9d9c8"/><stop offset="1" stop-color="#fbeee2"/></linearGradient><linearGradient id="wa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3c8"/><stop offset="1" stop-color="#5fb7ae"/></linearGradient></defs>
 <rect width="400" height="250" fill="url(#sk)"/>
 <rect x="0" y="40" width="400" height="120" fill="#efc7a8"/>
@@ -104,7 +104,7 @@ body.dark{background:#0e0a0b}body.dark #hd,body.dark #logo{display:none}
 <div class="row" style="margin-top:6px"><button class="cta" id="cp" style="flex:1">Copier l'adresse</button><a class="cta" style="flex:1;text-decoration:none;text-align:center;border-radius:14px;padding:16px 10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold)" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Derb+Jdid+Souk+Kaksour+Marrakech">Itinéraire</a></div></div>
 <div class="trip"><strong>≈ 20 min</strong><span>depuis l'aéroport Marrakech-Ménara, en taxi. Les voitures s'arrêtent à l'entrée de la médina, le reste se fait à pied (quelques minutes).</span></div>
 <p class="demo">Les détails de ta soirée arrivent dans 1 h.</p>
-<button class="ghost" id="prev">Rejoindre la soirée (aperçu)</button><button class="ghost" id="back">Retour au prototype</button></div></section>
+<button class="ghost adm" id="prev">Rejoindre la soirée (aperçu)</button><button class="ghost adm" id="back">Retour au prototype</button></div></section>
 <section class="night" id="night" hidden><p class="k">Ce soir · 21 h · Terrasse du riad</p><h2>Le procès de ma vingtaine</h2><h3>« Cheers to the end of an era »</h3><svg viewBox="0 0 400 260" role="img" aria-label="Pierre tombale RIP 20s entourée de bougies"><rect width="400" height="260" fill="#120c0d"/><circle cx="200" cy="120" r="120" fill="#2a1519" opacity=".55"/>
 <rect x="33" y="100" width="14" height="70" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="40" cy="90" rx="5" ry="10" fill="#f6b64a"/><path d="M30 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/><rect x="71" y="75" width="14" height="95" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="78" cy="65" rx="5" ry="10" fill="#f6b64a"/><path d="M68 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/><rect x="315" y="75" width="14" height="95" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="322" cy="65" rx="5" ry="10" fill="#f6b64a"/><path d="M312 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/><rect x="353" y="100" width="14" height="70" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="360" cy="90" rx="5" ry="10" fill="#f6b64a"/><path d="M350 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/>
 <path d="M130 230V100a70 70 0 0 1 140 0v130z" fill="#241a1c" stroke="#c9a46a" stroke-width="2"/><path d="M144 224V102a56 56 0 0 1 112 0v122z" fill="none" stroke="#c9a46a" stroke-opacity=".5"/>
@@ -115,7 +115,7 @@ body.dark{background:#0e0a0b}body.dark #hd,body.dark #logo{display:none}
 <div class="box"><b>Chefs d'accusation</b><ul><li>Avoir quitté la vingtaine sans préavis.</li><li>Récidive du « c'est la dernière fois que je sors ».</li><li>Refus répété de grandir, circonstance aggravante.</li><li>Dissimulation de preuves : des photos d'avant 2020.</li></ul></div>
 <div class="box"><b>Déroulé de la soirée</b><div class="prog"><span>21 h</span><span>Entrée du cortège et veillée aux bougies</span><span>21 h 30</span><span>Ouverture du procès, témoignages</span><span>22 h 15</span><span>Plaidoiries, délibéré et verdict</span><span>22 h 45</span><span>La pioche des gages</span></div></div>
 <div class="box"><b>À préparer</b><span>Un éloge funèbre de 20 secondes pour la vingtaine de Juliette. Drôle, tendre ou très mauvais, tout est accepté.</span></div>
-<button class="cta" id="addr-back">Revoir l'adresse du riad</button><button class="ghost" id="back2">Retour au prototype</button></section>
+<button class="cta" id="addr-back">Revoir l'adresse du riad</button><button class="ghost adm" id="back2">Retour au prototype</button></section>
 </main>
 <script>
 const GUESTS=[
@@ -132,6 +132,7 @@ const GUESTS=[
  {n:"Laurine (heure à confirmer)",f:"",h:"12:00",d:"2026-12-18"},
  {n:"Anthony (heure à confirmer)",f:"",h:"12:00",d:"2026-12-18"}];
 const $=id=>document.getElementById(id);
+const ADMIN=/[?&]admin/.test(location.search);if(ADMIN)document.body.classList.add("admin");
 const sel=$("g");GUESTS.forEach((g,i)=>sel.add(new Option(g.n,i)));
 const UNITS=["Jours","Heures","Minutes","Secondes"];
 const clock=$("clock");
@@ -161,6 +162,7 @@ function tick(){
   let ms=Math.max(0,target-Date.now());
   const s=Math.floor(ms/1000),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),sc=s%60;
   [d,h,m,sc].forEach((v,k)=>{const t=String(v).padStart(2,"0");setCard(k*2,t[0]);setCard(k*2+1,t[1])});
+  $("land").hidden=!(ADMIN||target-Date.now()<6*3600e3);
   const p=Math.min(100,Math.max(0,(Date.now()-start)/(target-start)*100));
   $("bar").style.width=p+"%";$("pc").textContent=Math.floor(p)+" %";
   if(ms===0&&!landed)land();
@@ -186,6 +188,8 @@ $("land").onclick=land;
 $("test").onclick=()=>{landed=false;target=Date.now()+5000;$("sub").textContent="Atterrissage simulé dans"};
 sel.onchange=pick;
 $("ok").onclick=()=>{const v=$("ans").value.trim().toLowerCase();if(v==="chameau"||v==="dromadaire")$("rev").hidden=false;else{$("ans").value="";$("ans").placeholder="Pas tout à fait, réessaie"}};
+try{const sv=localStorage.getItem("j30g");if(sv!==null&&GUESTS[sv])sel.value=sv}catch(e){}
+sel.addEventListener("change",()=>{try{localStorage.setItem("j30g",sel.value)}catch(e){}});
 pick();tick();setInterval(tick,1000);
 </script>
 <script>if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))</script></body></html>
