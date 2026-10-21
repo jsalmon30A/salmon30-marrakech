@@ -1,5 +1,5 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Juliette 30 ans</title>
-<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#f6f2ee"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=2"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Juliette 30">
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#f6f2ee"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Juliette 30">
 <style>html{padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}[hidden]{display:none!important}</style></head><body>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Dancing+Script:wght@600;700&family=Archivo:wght@500;700;800&display=swap">
@@ -66,6 +66,9 @@ body.dark{background:#0e0a0b}body.dark #hd,body.dark #logo{display:none}
 .fl{animation:flk 1.6s ease-in-out infinite alternate;transform-origin:center bottom;transform-box:fill-box}
 @keyframes flk{to{transform:scale(.9,1.12)}}
 @media(prefers-reduced-motion:reduce){.fl{animation:none}}
+.sk #hd{display:none}.souk{display:flex;flex-direction:column;gap:18px}.souk svg{width:100%;height:auto;display:block;border-radius:20px}.k2{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--coral);text-align:center;margin:0}.souk h2{font-family:'Dancing Script',cursive;font-weight:700;font-size:clamp(46px,15vw,68px);line-height:1;margin:0;text-align:center}.lead{margin:0;text-align:center;line-height:1.45;font-size:16px}
+.box2{background:#fff;border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px;box-shadow:0 1px 0 rgba(20,17,16,.08)}.box2 b{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}.box2 p{margin:0;line-height:1.4}.box2 ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;line-height:1.4}.box2 li::marker{color:var(--coral)}
+.trgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.tr{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 8px;border:2px solid #ecd9ca;background:#fbf5ee;border-radius:16px;font:inherit;font-weight:800;font-size:13px;color:var(--ink);cursor:pointer;min-height:0}.tr svg{width:76px;height:76px;border-radius:0}.tr .ck{display:none;position:absolute;top:6px;right:8px;width:22px;height:22px;border-radius:50%;background:var(--coral);color:#fff;font-style:normal;font-size:13px;align-items:center;justify-content:center}.tr[aria-pressed=true]{border-color:var(--coral);background:#fdeae4}.tr[aria-pressed=true] .ck{display:flex}.score{font-weight:800;color:var(--coral);text-align:center}
 @media(prefers-reduced-motion:reduce){.card.go .flap{animation:none}.note{animation:none}}
 </style>
 <main>
@@ -104,7 +107,7 @@ body.dark{background:#0e0a0b}body.dark #hd,body.dark #logo{display:none}
 <div class="row" style="margin-top:6px"><button class="cta" id="cp" style="flex:1">Copier l'adresse</button><a class="cta" style="flex:1;text-decoration:none;text-align:center;border-radius:14px;padding:16px 10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold)" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Derb+Jdid+Souk+Kaksour+Marrakech">Itinéraire</a></div></div>
 <div class="trip"><strong>≈ 20 min</strong><span>depuis l'aéroport Marrakech-Ménara, en taxi. Les voitures s'arrêtent à l'entrée de la médina, le reste se fait à pied (quelques minutes).</span></div>
 <p class="demo">Les détails de ta soirée arrivent dans 1 h.</p>
-<button class="ghost adm" id="prev">Rejoindre la soirée (aperçu)</button><button class="ghost adm" id="back">Retour au prototype</button></div></section>
+<button class="ghost adm" id="prev2">Aperçu : la balade du souk (10 h)</button><button class="ghost adm" id="prev">Rejoindre la soirée (aperçu)</button><button class="ghost adm" id="back">Retour au prototype</button></div></section>
 <section class="night" id="night" hidden><p class="k">Ce soir · 21 h · Terrasse du riad</p><h2>Le procès de ma vingtaine</h2><h3>« Cheers to the end of an era »</h3><svg viewBox="0 0 400 260" role="img" aria-label="Pierre tombale RIP 20s entourée de bougies"><rect width="400" height="260" fill="#120c0d"/><circle cx="200" cy="120" r="120" fill="#2a1519" opacity=".55"/>
 <rect x="33" y="100" width="14" height="70" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="40" cy="90" rx="5" ry="10" fill="#f6b64a"/><path d="M30 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/><rect x="71" y="75" width="14" height="95" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="78" cy="65" rx="5" ry="10" fill="#f6b64a"/><path d="M68 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/><rect x="315" y="75" width="14" height="95" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="322" cy="65" rx="5" ry="10" fill="#f6b64a"/><path d="M312 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/><rect x="353" y="100" width="14" height="70" rx="2" fill="#f1e6d3"/><ellipse class="fl" cx="360" cy="90" rx="5" ry="10" fill="#f6b64a"/><path d="M350 170h20l-4 60h-12z" fill="#1c1416" stroke="#3a2a2c"/>
 <path d="M130 230V100a70 70 0 0 1 140 0v130z" fill="#241a1c" stroke="#c9a46a" stroke-width="2"/><path d="M144 224V102a56 56 0 0 1 112 0v122z" fill="none" stroke="#c9a46a" stroke-opacity=".5"/>
@@ -116,6 +119,24 @@ body.dark{background:#0e0a0b}body.dark #hd,body.dark #logo{display:none}
 <div class="box"><b>Déroulé de la soirée</b><div class="prog"><span>21 h</span><span>Entrée du cortège et veillée aux bougies</span><span>21 h 30</span><span>Ouverture du procès, témoignages</span><span>22 h 15</span><span>Plaidoiries, délibéré et verdict</span><span>22 h 45</span><span>La pioche des gages</span></div></div>
 <div class="box"><b>À préparer</b><span>Un éloge funèbre de 20 secondes pour la vingtaine de Juliette. Drôle, tendre ou très mauvais, tout est accepté.</span></div>
 <button class="cta" id="addr-back">Revoir l'adresse du riad</button><button class="ghost adm" id="back2">Retour au prototype</button></section>
+<section class="souk" id="souk" hidden><p class="k2">Dimanche 20 décembre · 10 h</p><h2>Balade dans le souk</h2><p class="lead">Ce matin, on se perd dans la médina. Thé, épices, babouches : ouvre l'œil et coche tes trouvailles.</p>
+<svg viewBox="0 0 400 260" role="img" aria-label="Illustration : arche, soleil, palmiers et toits roses de la médina"><defs><linearGradient id="hs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2a98f"/><stop offset="1" stop-color="#f9dcc4"/></linearGradient></defs>
+<rect width="400" height="260" fill="url(#hs)"/><circle cx="200" cy="108" r="46" fill="#fbeee2"/>
+<path d="M0 170q60-40 120-12t120-8 160 14V260H0z" fill="#9cc7aa"/>
+<path d="M0 190q90-30 170-6t230-16V260H0z" fill="#6fa58a"/>
+<g fill="#f3c9a8"><rect x="30" y="170" width="70" height="60"/><rect x="300" y="160" width="80" height="70"/><rect x="150" y="185" width="100" height="45"/></g>
+<g fill="#e9a487"><rect x="30" y="170" width="70" height="8"/><rect x="300" y="160" width="80" height="8"/></g>
+<path d="M60 18h280v236H60z" fill="none"/>
+<path d="M44 260V96a156 156 0 0 1 312 0v164h-30V100a126 126 0 0 0-252 0v160z" fill="#d9704f"/>
+<path d="M64 260V100a136 136 0 0 1 272 0v160h-14V104a122 122 0 0 0-244 0v156z" fill="#e9906f"/>
+<g fill="#c9a46a"><circle cx="200" cy="20" r="5"/><circle cx="150" cy="30" r="4"/><circle cx="250" cy="30" r="4"/></g>
+<g stroke="#3f7f65" stroke-width="5" stroke-linecap="round" fill="none"><path d="M98 250V190"/><path d="M302 250V190"/></g>
+<g fill="#3f7f65"><path d="M98 190c-26-6-36-24-34-34 12 8 26 16 34 34zM98 190c26-6 36-24 34-34-12 8-26 16-34 34zM98 190c-4-22 4-36 14-44 4 18-2 32-14 44zM98 190c4-22-4-36-14-44-4 18 2 32 14 44z"/><path d="M302 190c-26-6-36-24-34-34 12 8 26 16 34 34zM302 190c26-6 36-24 34-34-12 8-26 16-34 34zM302 190c-4-22 4-36 14-44 4 18-2 32-14 44zM302 190c4-22-4-36-14-44-4 18 2 32 14 44z"/></g>
+<rect y="238" width="400" height="22" fill="#f6efe6"/><path d="M0 238h400" stroke="#d9a07f" stroke-width="3"/></svg>
+<div class="box2"><b>Chasse aux trésors</b><p>Trouve chacun de ces huit objets pendant la balade. Touche une carte quand c'est fait. Tes coches restent sur ton téléphone.</p><div class="trgrid"><button type="button" class="tr" data-k="Thé à la menthe" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><path d='M18 30h20l-3 28a4 4 0 0 1-4 3h-6a4 4 0 0 1-4-3z' fill='#d98a2b'/><path d='M16 30h24' stroke='#c9a46a' stroke-width='3'/><ellipse cx='56' cy='50' rx='12' ry='11' fill='#c8c0b8'/><path d='M44 48l-9-8' stroke='#c8c0b8' stroke-width='4' stroke-linecap='round'/><path d='M50 38h12v-6a6 6 0 0 0-12 0z' fill='#aaa29a'/><path d='M68 46c6 0 6 10 0 10' fill='none' stroke='#c8c0b8' stroke-width='3'/></svg><span>Thé à la menthe</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Babouches" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><path d='M10 54c14 4 24-2 30-14l10-14c3-4 9-3 9 3l-2 18c8 2 14 4 14 10H10z' fill='#9cc7aa'/><path d='M10 56h62v6H10z' fill='#e8604c'/><path d='M44 38l6 6M38 44l6 6' stroke='#fbeee2' stroke-width='3' stroke-linecap='round'/></svg><span>Babouches</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Tajine" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><path d='M40 12l-4 14h8z' fill='#a8573a'/><path d='M14 52c0-16 14-26 26-26s26 10 26 26z' fill='#c4683f'/><ellipse cx='40' cy='54' rx='30' ry='7' fill='#a8573a'/><path d='M28 44h24' stroke='#f3c9a8' stroke-width='3'/></svg><span>Tajine</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Tapis" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><rect x='10' y='16' width='60' height='44' fill='#f2a98f'/><path d='M40 22l22 16-22 16-22-16z' fill='#fbeee2'/><path d='M40 28l12 10-12 10-12-10z' fill='#e8604c'/><path d='M14 60v10M24 60v10M34 60v10M44 60v10M54 60v10M64 60v10' stroke='#fbeee2' stroke-width='2'/></svg><span>Tapis</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Lanterne" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><path d='M34 10h12v8H34z' fill='#c9a46a'/><path d='M30 18h20l6 12v24l-6 8H30l-6-8V30z' fill='#e9b44c'/><g fill='#fff3d6'><circle cx='40' cy='34' r='4'/><circle cx='32' cy='46' r='3'/><circle cx='48' cy='46' r='3'/></g><path d='M30 62h20v6H30z' fill='#c9a46a'/></svg><span>Lanterne</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Épices" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><path d='M10 66L28 28l18 38z' fill='#d9704f'/><path d='M34 66l16-24 16 24z' fill='#e9b44c'/><path d='M50 66l12-16 14 16z' fill='#b02a3c'/><path d='M8 66h70' stroke='#a8573a' stroke-width='3'/></svg><span>Épices</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Grenade" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><circle cx='40' cy='44' r='24' fill='#c8344a'/><path d='M30 22l4 8 6-6 6 6 4-8z' fill='#9a2438'/><g fill='#f2a0a6'><circle cx='32' cy='42' r='3'/><circle cx='44' cy='38' r='3'/><circle cx='40' cy='52' r='3'/><circle cx='52' cy='50' r='3'/></g></svg><span>Grenade</span><i class="ck" aria-hidden="true">✓</i></button><button type="button" class="tr" data-k="Porte sculptée" aria-pressed="false"><svg viewBox="0 0 80 80" aria-hidden="true"><path d='M14 70V34a26 26 0 0 1 52 0v36z' fill='#d9704f'/><path d='M22 70V36a18 18 0 0 1 36 0v34z' fill='#c99a3b'/><path d='M40 18v52' stroke='#a8573a' stroke-width='2'/><circle cx='34' cy='46' r='2' fill='#fbeee2'/><circle cx='46' cy='46' r='2' fill='#fbeee2'/></svg><span>Porte sculptée</span><i class="ck" aria-hidden="true">✓</i></button></div><p class="score" id="score" aria-live="polite"></p></div>
+<div class="box2"><b>Quelques étapes possibles</b><ul><li>La place Jemaa el-Fna, pour le point de départ et les jus d'orange.</li><li>Le souk Semmarine, pour le tissu, les babouches et les lanternes.</li><li>Le souk Haddadine, celui des ferronniers.</li><li>Le souk des teinturiers, pour les laines qui sèchent au soleil.</li></ul></div>
+<div class="box2"><b>Les bons réflexes</b><ul><li>Marchande avec le sourire : le premier prix est rarement le bon.</li><li>Garde un peu d'argent liquide en dirhams, en petites coupures.</li><li>Reste proche du groupe. Les ruelles se ressemblent toutes.</li><li>Ce soir : dîner dans le désert d'Agafay.</li></ul></div>
+<button class="cta" id="souk-addr">Revoir l'adresse du riad</button><button class="ghost adm" id="souk-back">Retour au prototype</button></section>
 </main>
 <script>
 const GUESTS=[
@@ -166,7 +187,8 @@ function tick(){
   const p=Math.min(100,Math.max(0,(Date.now()-start)/(target-start)*100));
   $("bar").style.width=p+"%";$("pc").textContent=Math.floor(p)+" %";
   if(ms===0&&!landed)land();
-  if(landed&&!night&&Date.now()>=SOIREE&&target<SOIREE&&!window.__off)showNight(true);
+  if(landed&&!manual&&!night&&!soukOn&&Date.now()>=SOIREE&&Date.now()<SOUK&&target<SOIREE)showNight(true);
+  if(landed&&!manual&&!soukOn&&Date.now()>=SOUK)showSouk(true);
 }
 function note(t,body,cls){
   const e=document.createElement("div");e.className="note";
@@ -176,12 +198,19 @@ function land(){
   if(landed)return;landed=true;
   $("pre").hidden=true;$("arrival").hidden=false;window.scrollTo(0,0);
 }
+const SOUK=new Date("2026-12-20T10:00:00+01:00").getTime();let soukOn=false,manual=false;
+function showSouk(on){soukOn=on;document.body.classList.toggle('sk',on);$("souk").hidden=!on;if(on){night=false;$("night").hidden=true;document.body.classList.remove("dark");$("pre").hidden=true;$("arrival").hidden=true;window.scrollTo(0,0)}else if(landed&&!night){$("arrival").hidden=false}}
+function upScore(){const n=document.querySelectorAll('.tr[aria-pressed=true]').length;$("score").textContent=n+" / 8 trouvés"+(n===8?" · Bravo, trésor complet !":"")}
+document.querySelectorAll('.tr').forEach(b=>{try{if(localStorage.getItem('j30t_'+b.dataset.k))b.setAttribute('aria-pressed','true')}catch(e){}b.onclick=()=>{const on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',on);try{on?localStorage.setItem('j30t_'+b.dataset.k,'1'):localStorage.removeItem('j30t_'+b.dataset.k)}catch(e){}upScore()}});upScore();
+$("souk-addr").onclick=()=>{manual=true;showSouk(false)};
+$("souk-back").onclick=()=>{showSouk(false);back()};
 const SOIREE=new Date("2026-12-18T21:00:00+01:00").getTime();let night=false;
-function showNight(on){night=on;$("night").hidden=!on;document.body.classList.toggle("dark",on);if(on){$("pre").hidden=true;$("arrival").hidden=true;window.scrollTo(0,0)}else if(landed){$("arrival").hidden=false}}
+function showNight(on){if(on&&soukOn)return;night=on;$("night").hidden=!on;document.body.classList.toggle("dark",on);if(on){$("pre").hidden=true;$("arrival").hidden=true;window.scrollTo(0,0)}else if(landed){$("arrival").hidden=false}}
+$("prev2").onclick=()=>{landed=true;showSouk(true)};
 $("prev").onclick=()=>{landed=true;showNight(true)};
-$("addr-back").onclick=()=>showNight(false);
+$("addr-back").onclick=()=>{manual=true;showNight(false)};
 $("back2").onclick=()=>{showNight(false);back()};
-function back(){showNight(false);$("arrival").hidden=true;$("pre").hidden=false;pick();}
+function back(){manual=false;soukOn=false;$("souk").hidden=true;showNight(false);$("arrival").hidden=true;$("pre").hidden=false;pick();}
 $("back").onclick=back;
 $("cp").onclick=()=>{const t="Souk Kaksour, 16 Derb Jdid, Médina, Marrakech";(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{$("cp").textContent="Adresse copiée"},()=>{$("cp").textContent="Copie impossible"})};
 $("land").onclick=land;
