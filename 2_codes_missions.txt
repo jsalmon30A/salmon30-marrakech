@@ -1,0 +1,18 @@
+CODES PERSONNELS DES MISSIONS SECRÈTES (à envoyer à chacun en message privé, SURTOUT PAS sur GitHub)
+
+Juliette : J6K9VU
+Quentin : XRCZUX
+Adèle : BVFKYM
+Justine : QWG6FB
+Matéo : H2MTG6
+Pierre : 7QM6FJ
+Kevin : BJAC9G
+Bastien : 6RZZC7
+Romain : GSMAZQ
+Julie : KYG4G6
+Laurine : TPB4X6
+Anthony : 28K57V
+
+Message type : « Une mission secrète t'attend dans l'app. Ton code personnel : XXXXXX. Ne le montre à personne ! »
+
+La mission de chacun est tirée au sort dans le fichier SQL (tu peux l'ignorer pour garder la surprise).
