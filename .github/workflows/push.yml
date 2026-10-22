@@ -1,0 +1,32 @@
+name: Notifications
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Envoyer une notification de test maintenant (oui / non)"
+        default: "non"
+      prenom:
+        description: "Test seulement pour ce prénom (laisser vide = tout le monde)"
+        default: ""
+concurrency:
+  group: notifications
+  cancel-in-progress: false
+jobs:
+  envoi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: node send_push.mjs
+        env:
+          SEND_KEY: ${{ secrets.SEND_KEY }}
+          VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
+          TEST: ${{ github.event.inputs.test }}
+          TEST_NAME: ${{ github.event.inputs.prenom }}
+
